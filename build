@@ -2,4 +2,4 @@
 uname -a
 rm -f hello
 $CC -o hello hello.c
-if [ "$(./hello)" = "Hello world!" ]; then echo "successful"; exit 0; else echo "unsuccessful"; exit 1; fi
+if [ "$(./hello)" = "Hello world! Maybe on Power for realsies this time! MAYBE!" ]; then echo "successful"; exit 0; else echo "unsuccessful"; exit 1; fi
