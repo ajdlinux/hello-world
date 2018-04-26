@@ -1,10 +1,10 @@
 language: c
-os:
-  - linux
-  - linux-ppc64le
-    sudo: false
-  - linux-ppc64le
-    sudo: true
+matrix:
+  include:
+    - os: linux-ppc64le
+      sudo: false
+    - os: linux-ppc64le
+
 script: ./build
 compiler:
   - clang
